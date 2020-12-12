@@ -1,6 +1,6 @@
 import Axios from 'axios';
 import React from "react";
-import {useEffect,useState} from "react";
+import {useState} from "react";
 
 
 const AdminLogin = () =>{
@@ -21,7 +21,7 @@ const AdminLogin = () =>{
     };
    
     if (user){
-        return <div>{user.name} is loggged in</div>;
+        return <div id="project1-form-main">{username} is loggged in</div>;
     }
  /*
     const handleChange = (e) => {
@@ -30,7 +30,7 @@ const AdminLogin = () =>{
 */
 
     return(
-        <section id="pirate-form-main">
+        <section id="project1-form-main">
         <div className="form-wrap">
             <h1>Admin Login</h1>
             <form onSubmit={handleSubmit}>

@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -15,12 +15,6 @@ const NavBar = () => {
             <NavLink exact to='/' activeClassName='selected'>Home</NavLink>
             </li>
             <li>
-            <NavLink exact to='/view-pirates' activeClassName='selected'>View Pirates</NavLink>
-            </li>
-            <li>
-            <NavLink exact to='/add' activeClassName='selected'>Add Pirate</NavLink>
-            </li>
-            <li>
             <NavLink exact to='/adminLogin' activeClassName='selected'>Admin Login</NavLink>
             </li>
             <li>
@@ -28,6 +22,9 @@ const NavBar = () => {
             </li>
             <li>
             <NavLink exact to='/view-player' activeClassName='selected'>View Player</NavLink>
+            </li>
+            <li>
+            <NavLink exact to='/logout' activeClassName='selected'>Logout</NavLink>
             </li>
           </ul>
         </div>

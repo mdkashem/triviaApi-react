@@ -15,9 +15,10 @@ export default class HomePage extends React.Component {
          <div id="showcase">
             <div className="my-container">
                <div id="showcase-content">
-                  <h1>Intuitive Pirate Management</h1>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit cum voluptas in asperiores totam! Vero quae doloremque explicabo modi impedit.</p>
-                  <button className="btn"><a href="/view-pirates">View Pirates</a></button>
+                  <h1>Welcome to the Quiz Show!</h1>
+                  <p>The player can choose an answer and be notified if it is correct or not.
+The player's score is kept and updated as they play. 1 point per question answered correctly.</p>
+                  <button className="btn"><a href="/">PLay</a></button>
                </div>
             </div>
          </div>

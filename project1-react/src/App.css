@@ -81,14 +81,14 @@ the margin or padding of inline elements directly, so we change a to a block typ
 
 /* SHOWCASE */
 #showcase {
-  background: url('./images/pirate-ship.jpg') no-repeat center center;
+  background: url('./images/project-1-back.jpg') no-repeat center center;
   height: 600px;
   padding: 0 50px;
 }
 
 #showcase #showcase-content {
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
+  background: rgba(208, 251, 249, 0.6);
+  color: rgba(5, 14, 2, 0.822);
   text-align: center;
   margin-top: 170px;
   padding: 50px;
@@ -100,99 +100,99 @@ the margin or padding of inline elements directly, so we change a to a block typ
 }
 
 /* Pirate List */
-#pirate-list-img {
-  background: url('./images/pirate-ship.jpg') no-repeat center center;
+#project1-list-img {
+  background: url('./images/project-1-back.jpg') no-repeat center center;
   min-height: 500px;
   padding: 20px;
 }
 
-#pirate-list-main {
+#project1-list-main {
   margin: auto;
   width: 50%;
   margin-top: 20px;
   margin-bottom: 100px;
 }
 
-#pirate-list-main h1 {
+#project1-list-main h1 {
   font-size: 30px;
 }
 
-#pirate-list-main table {
+#project1-list-main table {
   margin: auto;
   width: 100%;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
 }
 
-#pirate-list-main table thead tr {
+#project1-list-main table thead tr {
   background-color: #f7c08a;
   color: #fff;
   text-align: left;
   font-weight: bold;
 }
 
-#pirate-list-main table th,
-#pirate-list-main table td {
+#project1-list-main table th,
+#project1-list-main table td {
   padding: 10px 20px;
 }
 
-#pirate-list-main tbody tr {
+#project1-list-main tbody tr {
   background: rgba(153, 124, 76, 0.657);
   border-bottom: 1px solid #ddd;
   color: white;
 }
 
-#pirate-list-main tbody tr:nth-of-type(even) {
+#project1-list-main tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
   color: #000;
 }
 
-#pirate-list-main tbody tr:hover {
+#project1-list-main tbody tr:hover {
   color: #f7c08a;
 }
 
-/* Pirate Form */
-#pirate-form-main {
+/* Project 1 Form */
+#project1-form-main {
   margin: auto;
   width: 50%;
   margin-top: 20px;
-  background: #4b6085;
+  background: #b6f0fa;
   padding: 20px;
-  color: #fff;
+  color: rgb(12, 11, 11);
 }
 
-#pirate-form-main .form-wrap {
+#project1-form-main .form-wrap {
   padding: 15px 15px;
 }
 
-#pirate-form-main .form-wrap h1,
-#pirate-form-main .form-wrap p {
+#project1-form-main .form-wrap h1,
+#project1-form-main .form-wrap p {
   text-align: center;
 }
 
-#pirate-form-main .form-wrap .form-group {
+#project1-form-main .form-wrap .form-group {
   margin-top: 15px;
 }
 
-#pirate-form-main .form-wrap label {
+#project1-form-main .form-wrap label {
   display: block;
 }
 
-#pirate-form-main .form-wrap .form-group input {
+#project1-form-main .form-wrap .form-group input {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
   border: #555 solid 1px;
 }
 
-#pirate-form-main .form-wrap .form-group select {
+#project1-form-main .form-wrap .form-group select {
   width: 100%;
   padding: 10px;
   border: #555 solid 1px;
   border-radius: 5px;
 }
 
-#pirate-form-main .form-wrap button {
+#project1-form-main .form-wrap button {
   width: 100%;
   display: block;
   padding: 10px;
@@ -200,7 +200,7 @@ the margin or padding of inline elements directly, so we change a to a block typ
   border-radius: 10px;
 }
 
-#pirate-form-main .form-wrap button:hover {
+#project1-form-main .form-wrap button:hover {
   background: #555;
 }
 

@@ -26,7 +26,7 @@ const ViewQuestion = () => {
     }, [])
 
     return (
-        <section id="pirate-list-main">
+        <section id="project1-list-main">
         <h1>Question List</h1>
         <table className="table">
             <thead className="thead-dark">
@@ -39,7 +39,7 @@ const ViewQuestion = () => {
                     <th>Option-4( Correct Answer)</th>
                 </tr>
             </thead>
-            <tbody id="pirate-table-data">
+            <tbody id="project1-table-data">
                 {
                     questions.map(question=> 
                         (<Question question={question} key={question.id}/>)

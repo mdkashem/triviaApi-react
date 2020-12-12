@@ -1,6 +1,5 @@
 import Axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import Question from '../js/Question'
 const ViewPlayer = () => {
     const [players, setPlayer] = useState([]);
     const getPlayers = async () => {
@@ -26,7 +25,7 @@ const ViewPlayer = () => {
     }, [])
 
     return ( 
-        <section id="pirate-list-main">    
+        <section id="project1-list-main">    
             <table className="table">
               <thead className="thead-dark">
                 <tr>
@@ -36,7 +35,7 @@ const ViewPlayer = () => {
                 <th>Rounds Info</th>
                 </tr>
                 </thead>
-                <tbody id="pirate-table-data">
+                <tbody id="project1-table-data">
                 {
                     players.map(function(d, idx){
                         return (<tr key = {idx}><td>{d.id}</td><td>{d.role}</td><td>{d.username}</td>
