@@ -3,10 +3,18 @@ import React, { useEffect, useState } from 'react';
 const ViewPlayer = () => {
     const [players, setPlayer] = useState([]);
     const getPlayers = async () => {
-        const response = await Axios.get('http://127.0.0.1:8080/TriviaAPI/players', { withCredentials: true });
+        const response = await Axios.get('http://18.222.123.135:8080/TriviaAPI/players', { withCredentials: true }).then(response=>{
+            setPlayer(response.data);
+            console.log(response.data);
+        }
+  
+        ).catch((error)=>{
+            alert('Login error', error.response);
+        }
 
-        setPlayer(response.data);
-        console.log(response.data);
+            );
+
+        
     }
 
     // UseEffect is what is known as a hook
@@ -23,8 +31,8 @@ const ViewPlayer = () => {
     useEffect(() => {
         getPlayers();
     }, [])
-
-    return ( 
+   
+     return ( 
         <section id="project1-list-main">    
             <table className="table">
               <thead className="thead-dark">
@@ -63,6 +71,7 @@ const ViewPlayer = () => {
             </table>
             </section>
     );
+            
 
 }
     export default ViewPlayer;

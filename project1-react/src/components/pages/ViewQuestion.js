@@ -4,10 +4,14 @@ import Question from '../js/Question'
 const ViewQuestion = () => {
     const [questions, setQuestions] = useState([]);
     const getQuestions = async () => {
-        const response = await Axios.get('http://127.0.0.1:8080/TriviaAPI/questions', { withCredentials: true });
+        const response = await Axios.get('http://18.222.123.135:8080/TriviaAPI/questions', { withCredentials: true }).then(response=>{
+            setQuestions(response.data);
+            console.log(response.data);
+        }).catch((error)=>{
+            alert('Login error', error.response);
+        });
 
-        setQuestions(response.data);
-        console.log(response.data);
+
     }
 
     // UseEffect is what is known as a hook

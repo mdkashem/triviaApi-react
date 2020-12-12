@@ -24,6 +24,12 @@ const NavBar = () => {
             <NavLink exact to='/view-player' activeClassName='selected'>View Player</NavLink>
             </li>
             <li>
+            <NavLink exact to='/search' activeClassName='selected'>Search Player</NavLink>
+            </li>
+            <li>
+            <NavLink exact to='/update' activeClassName='selected'>Update Player</NavLink>
+            </li>
+            <li>
             <NavLink exact to='/logout' activeClassName='selected'>Logout</NavLink>
             </li>
           </ul>
