@@ -9,6 +9,12 @@ http://md-reveture-project1.s3-website.us-east-2.amazonaws.com/
 - View All Players
 - View All Questions 
 - Logout 
+# List of work done 
+- Little changed in the web.xml to solve the cors filtering issues
+- Backend deployed in the AWS EC2
+- Build CI/CD pipeline for the Backend with Jenkins 
+- Frontend deployed on the AWS S3 bucket
+- Practiced Scrum Methodology 
 # Setup process in local machine 
 - git clone 
 - npm install 
