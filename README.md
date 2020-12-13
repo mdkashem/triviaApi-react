@@ -1,7 +1,14 @@
-# triviaApi-react
-project 1
+# TriviaApi-react
+Project 1
 This project is client side rending for the TriviaAPI.
 http://md-reveture-project1.s3-website.us-east-2.amazonaws.com/
+# Admin's role that implimented 
+- login as an Admin
+- Update player's password 
+- Search Player 
+- View All Players
+- View All Questions 
+- Logout 
 # Setup process in local machine 
 - git clone 
 - npm install 
@@ -16,3 +23,4 @@ http://md-reveture-project1.s3-website.us-east-2.amazonaws.com/
 - HTML5
 - AXIOS 0.21.0
 - Webpack 
+- Bootstrap 4.0
