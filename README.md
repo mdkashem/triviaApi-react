@@ -1,6 +1,7 @@
 # triviaApi-react
 project 1
 This project is client side rending for the TriviaAPI.
+http://md-reveture-project1.s3-website.us-east-2.amazonaws.com/
 # Setup process in local machine 
 - git clone 
 - npm install 
