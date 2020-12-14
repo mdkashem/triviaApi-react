@@ -23,6 +23,7 @@ http://md-reveture-project1.s3-website.us-east-2.amazonaws.com/
 - npm run build 
 - upload all files and folders from the build folder to remote such as AWS S3 buckets 
 # Technologies:
+- Node js
 - React 17.0.1
 - JavaScript 
 - CSS
